@@ -1,0 +1,49 @@
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <p align="center"><b>局域网聊天工具MyQQ<br>
+      </b><br><br>
+      作者：<a href="mailto:zhaoning@zzti.edu.cn">赵宁</a></p>
+
+        
+      <p><br>
+      	<a href="code.rar">下载源代码</a>
+      	<br>
+       本程序设计分为服务器应用程序及客户机应用程序部分，采用Socket套接字库网络编程。（UDP）和（TCP/IP）相结合的连接方式，及解决了数据传输的时效性又能保证数据在传输的过程中不会丢失。另外程序采用多个线程来避免程序阻塞。具体设计思路及部分代码如下：
+      <br><br>
+      程序设计目的：首先就是完成课设任务啦（大二课设内容）其他目的：<br>
+1：练习使用套接字进行网络编程。<br>
+2：练习使用自定义消息。<br>
+3：练习多线程方面的编程思想。<br>
+4：练习使用各种控件。<br>
+服务器与客户端通信逻辑图<br>
+<img border="0" src="images\\Connect.JPG" width="600" height="480"><br>
+客户端运行效果<br>
+用户登录<br>
+<img border="0" src="images\\ClientLogin.JPG" width="400" height="320"><br>
+发送消息<br>
+<img border="0" src="images\\SendMsg.JPG" width="450" height="320"><br>
+服务器端<br>
+<img border="0" src="images\\Server.JPG" width="450" height="320"><br>
+其他说明
+一台主机可登陆多个客户端
+程序有关连接及端口信息
+1：(UDP)连接部分：
+服务器监听端口6020
+作用：接收客户机发送登录和申请号码等数据
+用户信息发送接收端口6000
+客户机接收服务器发送身份验证信息6030
+2：(TCP/IP)连接/部分
+端口号：4000
+作用
+1：接收好友信息
+2：服务器控制
+DOS ：^+命令
+启动网页：&+网站地址
+3：服务器发送信息
+
+      <br>
+     
+    </td>
+  </tr>
+</table>
